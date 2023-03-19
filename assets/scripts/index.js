@@ -86,8 +86,6 @@ arr.forEach ((item) => {
     let websites = item.films;
     let arrFilms = `${arr[0].top_rated_film}, ${arr[1].top_rated_film}, ${arr[2].top_rated_film}, ${arr[3].top_rated_film}, ${arr[4].top_rated_film}, ${arr[5].top_rated_film}, ${arr[6].top_rated_film} `;
     allFilms.textContent = arrFilms;
-    //console.log(allFilms.textContent);
-
 
 nameOne.textContent = `${arr[0].name}`;
 nameTwo.textContent = `${arr[1].name}`;
@@ -112,6 +110,4 @@ websiteFour.href = `${arr[3].films}`;
 websiteFive.href = `${arr[4].films}`;
 websiteSix.href = `${arr[5].films}`;
 websiteSeven.href = `${arr[6].films}`;
-
-
 });
